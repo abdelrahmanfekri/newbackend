@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ["https://octopus-app-icwe5.ondigitalocean.app/", "*"]
+CSRF_TRUSTED_ORIGINS = ["https://octopus-app-icwe5.ondigitalocean.app/"]
 
 
 # Application definition
