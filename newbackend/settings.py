@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-(kt+txf5*5@33txb-myjyq73+l$2magr&r!e(wy9^sx2z)p3z_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
+
+CSRF_TRUSTED_ORIGINS = ["https://octopus-app-icwe5.ondigitalocean.app/", "*"]
 
 
 # Application definition
